@@ -1,0 +1,109 @@
+{
+  "intents": [
+    {
+      "tag": "salam_sapaan",
+      "patterns": ["Halo", "Hai", "Hi", "Selamat pagi", "Selamat siang", "Selamat sore", "Selamat malam", "P", "Permisi", "Assalamualaikum"],
+      "responses": ["Halo! Ada yang bisa Maydarling bantu terkait pengelolaan sampah?", "Hai! Selamat datang di Maydarling.id. Mau tanya apa seputar sampah?", "Hi! Senang bisa membantu. Ada pertanyaan tentang lingkungan atau sampah?", "Waalaikumsalam! Ada yang bisa dibantu terkait informasi sampah?"]
+    },
+    {
+      "tag": "perpisahan",
+      "patterns": ["Dadah", "Bye", "Sampai jumpa", "Selamat tinggal", "Makasih ya infonya, aku keluar dulu", "Oke cukup", "Saya pamit", "Keluar"],
+      "responses": ["Sampai jumpa! Jangan lupa jaga kebersihan lingkungan ya.", "Dadah! Semoga harimu menyenangkan dan bebas sampah.", "Oke, sampai ketemu lagi! Ingat, sampahmu tanggung jawabmu."]
+    },
+    {
+      "tag": "terima_kasih",
+      "patterns": ["Makasih", "Terima kasih", "Thanks", "Thank you", "Sangat membantu", "Oke makasih infonya", "Makasih banyak"],
+      "responses": ["Sama-sama! Senang bisa membantu.", "Dengan senang hati! Ada lagi yang bisa dibantu?", "Terima kasih kembali! Jangan ragu bertanya lagi ya."]
+    },
+    {
+      "tag": "definisi_sampah",
+      "patterns": ["Apa itu sampah?", "Jelaskan tentang sampah", "Sampah itu apa sih?", "Definisi sampah", "Pengertian sampah"],
+      "responses": ["Sampah adalah material sisa dari aktivitas manusia atau proses alam yang sudah tidak lagi digunakan, tidak diinginkan, atau dibuang."]
+    },
+    {
+      "tag": "jenis_sampah",
+      "patterns": ["Jenis-jenis sampah apa saja?", "Sampah dibagi menjadi apa aja?", "Tipe sampah", "Klasifikasi sampah", "Ada berapa jenis sampah?", "Sebutkan jenis sampah"],
+      "responses": ["Secara umum, sampah dibagi menjadi tiga jenis utama: sampah organik (sisa makanan, daun, ranting), sampah anorganik (plastik, kaleng, kertas, kaca), dan sampah B3 atau Bahan Berbahaya dan Beracun (baterai bekas, elektronik rusak, obat kedaluwarsa, lampu neon)."]
+    },
+    {
+      "tag": "cara_pilah",
+      "patterns": ["Bagaimana cara memilah sampah?", "Cara memilah sampah rumah tangga?", "Langkah memilah sampah", "Tips pilah sampah", "Gimana sih misahin sampah?"],
+      "responses": ["Cara memilah sampah yang benar dimulai dengan memisahkan sampah organik (sisa makanan, dedaunan) dari sampah anorganik (plastik, kertas, kaleng, kaca). Sampah B3 (baterai, elektronik) harus dipisahkan secara khusus dan ditangani dengan hati-hati. Menyediakan tempat sampah terpisah untuk setiap jenis akan sangat membantu!"]
+    },
+    {
+      "tag": "pentingnya_pilah_sampah",
+      "patterns": ["Kenapa kita harus memilah sampah?", "Apa pentingnya memilah sampah?", "Manfaat pilah sampah apa?", "Mengapa memilah sampah itu penting?"],
+      "responses": ["Memilah sampah sangat penting! Ini memudahkan proses daur ulang, mengurangi jumlah sampah yang berakhir di TPA (Tempat Pemrosesan Akhir), mencegah pencemaran lingkungan, dan bahkan bisa memiliki nilai ekonomis jika sampah anorganik dijual ke bank sampah."]
+    },
+    {
+      "tag": "dampak_sampah_plastik",
+      "patterns": ["Apa dampak sampah plastik?", "Kenapa sampah plastik berbahaya?", "Plastik berbahaya untuk lingkungan?", "Bahaya sampah plastik", "Apa akibat sampah plastik?"],
+      "responses": ["Sampah plastik sangat berbahaya karena sulit terurai, bisa memakan waktu ratusan tahun! Ini dapat mencemari tanah dan air, membahayakan hewan yang bisa terjerat atau menelannya, serta terurai menjadi mikroplastik yang bisa masuk ke rantai makanan dan berdampak buruk bagi kesehatan."]
+    },
+    {
+      "tag": "dampak_sampah_umum",
+      "patterns": ["Apa dampak buruk sampah?", "Akibat sampah tidak dikelola?", "Masalah akibat sampah?", "Bahaya sampah secara umum"],
+      "responses": ["Sampah yang tidak terkelola dengan baik dapat menyebabkan berbagai masalah serius seperti banjir karena menyumbat saluran air, pencemaran air dan tanah, menjadi sarang penyakit bagi manusia dan hewan, serta merusak keindahan dan keseimbangan ekosistem lingkungan."]
+    },
+    {
+      "tag": "masalah_sampah_indonesia",
+      "patterns": ["Bagaimana kondisi sampah di Indonesia?", "Masalah sampah di Indonesia itu apa aja?", "Kenapa pengelolaan sampah di Indonesia sulit?", "Persoalan sampah di Indonesia"],
+      "responses": ["Pengelolaan sampah di Indonesia masih menghadapi banyak tantangan, termasuk rendahnya kesadaran dan partisipasi masyarakat dalam memilah sampah dari sumbernya, volume sampah yang terus meningkat seiring pertumbuhan penduduk dan konsumsi, serta kapasitas TPA yang terbatas dan teknologi pengelolaan yang belum optimal. Ini menjadi isu krusial yang perlu kita tangani bersama."]
+    },
+    {
+      "tag": "tentang_maydarling",
+      "patterns": ["Apa itu Maydarling?", "Maydarling itu apa?", "Ceritain tentang Maydarling.id", "Maydarling.id website apa?", "Jelaskan Maydarling"],
+      "responses": ["Maydarling.id (Mayoritas Sadar Lingkungan) adalah sebuah website edukatif yang bertujuan meningkatkan kesadaran masyarakat tentang dampak negatif sampah dan pentingnya menjaga lingkungan. Kami menyediakan berbagai informasi edukatif berupa artikel, infografis, dan kampanye digital."]
+    },
+    {
+      "tag": "misi_maydarling",
+      "patterns": ["Apa tujuan Maydarling?", "Misi Maydarling.id apa?", "Kenapa Maydarling dibuat?", "Apa visi Maydarling?"],
+      "responses": ["Misi utama Maydarling.id adalah untuk meningkatkan kesadaran masyarakat akan dampak negatif sampah, mengedukasi tentang solusi pengelolaannya, dan mendorong perubahan perilaku menuju gaya hidup yang lebih ramah lingkungan. Ini semua demi terciptanya kota dan permukiman yang berkelanjutan."]
+    },
+    {
+      "tag": "fitur_maydarling",
+      "patterns": ["Apa saja fitur di Maydarling.id?", "Di Maydarling ada apa aja?", "Konten Maydarling apa?", "Layanan Maydarling"],
+      "responses": ["Di Maydarling.id, kamu bisa menemukan berbagai informasi edukatif berupa artikel, infografis menarik, dan informasi kampanye digital. Kami juga sedang mengembangkan fitur AI untuk identifikasi sampah dan tentunya chatbot ini untuk membantumu mendapatkan informasi dengan cepat!"]
+    },
+    {
+      "tag": "ai_image_recognition_maydarling",
+      "patterns": ["Apa itu fitur AI identifikasi sampah?", "Bagaimana cara kerja AI Maydarling untuk sampah?", "Bisa bantu identifikasi sampah dengan gambar?", "Jelaskan fitur AI pengenal sampah"],
+      "responses": ["Maydarling.id sedang mengembangkan fitur AI (Artificial Intelligence) yang nantinya bisa membantu kamu mengidentifikasi jenis sampah (misalnya organik, anorganik, atau B3) hanya dengan mengunggah gambarnya. Tujuannya agar proses memilah sampah jadi lebih mudah dan menyenangkan! Untuk saat ini, fitur tersebut masih dalam tahap pengembangan ya."]
+    },
+    {
+      "tag": "sdgs_maydarling",
+      "patterns": ["Apa hubungan Maydarling dengan SDGs?", "SDGs apa yang didukung Maydarling?", "Maydarling dan kota berkelanjutan", "Kontribusi Maydarling untuk SDGs"],
+      "responses": ["Maydarling.id dikembangkan sebagai bentuk dukungan terhadap pencapaian Sustainable Development Goals (SDGs) atau Tujuan Pembangunan Berkelanjutan, khususnya poin ke-11, yaitu 'Kota dan Permukiman yang Berkelanjutan'. Kami percaya bahwa lingkungan yang bersih dan pengelolaan sampah yang baik adalah kunci untuk kota yang sehat dan tangguh."]
+    },
+    {
+      "tag": "solusi_pengelolaan_sampah",
+      "patterns": ["Bagaimana solusi pengelolaan sampah?", "Cara mengatasi masalah sampah?", "Apa yang bisa dilakukan untuk sampah?", "Strategi kelola sampah"],
+      "responses": ["Solusi pengelolaan sampah melibatkan banyak aspek, mulai dari diri sendiri seperti menerapkan prinsip 3R (Reduce/Kurangi, Reuse/Gunakan Kembali, Recycle/Daur Ulang), memilah sampah dari rumah, membuat kompos dari sampah organik, hingga dukungan pada kebijakan pemerintah, partisipasi dalam kampanye lingkungan, dan pemanfaatan teknologi pengelolaan sampah yang lebih maju."]
+    },
+    {
+      "tag": "gaya_hidup_ramah_lingkungan",
+      "patterns": ["Bagaimana cara hidup ramah lingkungan?", "Tips go green?", "Contoh gaya hidup minim sampah?", "Cara mengurangi jejak karbon?", "Hidup zero waste gimana?"],
+      "responses": ["Gaya hidup ramah lingkungan bisa dimulai dari hal kecil sehari-hari: bawa tas belanja sendiri untuk mengurangi plastik, gunakan botol minum reusable, habiskan makananmu, hemat penggunaan air dan listrik, pilah sampahmu, pilih produk dengan kemasan minimal atau ramah lingkungan, dan sebisa mungkin gunakan transportasi publik atau berjalan kaki/bersepeda. Setiap langkah kecil sangat berarti!"]
+    },
+    {
+      "tag": "kampanye_kolaborasi_maydarling",
+      "patterns": ["Bagaimana cara ikut kampanye Maydarling?", "Apakah Maydarling ada kolaborasi dengan komunitas?", "Info kampanye lingkungan Maydarling", "Cara dukung Maydarling"],
+      "responses": ["Maydarling.id aktif melakukan kampanye digital untuk meningkatkan kesadaran lingkungan dan terbuka untuk kolaborasi dengan berbagai komunitas peduli lingkungan. Kamu bisa cek website dan media sosial kami untuk informasi terbaru mengenai kampanye yang sedang berjalan dan bagaimana cara berpartisipasi atau mendukung kami!"]
+    },
+    {
+      "tag": "kemampuan_bot",
+      "patterns": ["Kamu bisa apa saja?", "Apa yang bisa kamu lakukan?", "Bantu apa?", "Fungsi kamu apa?", "Tugas kamu apa?"],
+      "responses": ["Aku MaydarlingBot! Aku di sini untuk menjawab pertanyaanmu seputar definisi sampah, jenis-jenisnya, cara memilah, dampak sampah, solusi pengelolaan, serta informasi tentang platform edukasi Maydarling.id dan gaya hidup ramah lingkungan. Tanyakan saja apa yang ingin kamu ketahui!"]
+    },
+    {
+      "tag": "bot_creator",
+      "patterns": ["Siapa yang membuatmu?", "Kamu buatan siapa?", "Developer kamu siapa?"],
+      "responses": ["Aku dikembangkan dengan penuh semangat oleh tim Maydarling.id! Tujuanku adalah untuk membantu menyebarkan kesadaran dan informasi positif tentang pentingnya pengelolaan sampah dan menjaga lingkungan kita."]
+    },
+    {
+      "tag": "afirmasi_positif",
+      "patterns": ["Keren", "Bagus sekali", "Mantap", "Informasi yang berguna", "Setuju"],
+      "responses": ["Terima kasih atas apresiasinya! Semoga informasi ini bermanfaat.", "Senang mendengarnya! Mari bersama-sama ciptakan lingkungan yang lebih baik.", "Terima kasih! Dukunganmu sangat berarti."]
+    }
+  ]
+}
