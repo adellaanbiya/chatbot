@@ -5,6 +5,13 @@ import os
 from nltk_utils import bag_of_words, tokenize
 from model import NeuralNet
 
+import nltk
+try:
+    nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt')
+
+
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
